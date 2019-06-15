@@ -1,10 +1,9 @@
-import Layout from '../components/Layout'
 
-const Index = () => {
+const Index = ({name}) => {
   return (
-    <Layout>
-      <h1>Hello from Index!</h1>
-    </Layout>
+    <div>
+      <h1>Welcome {name}!</h1>
+    </div>
   )
 }
 

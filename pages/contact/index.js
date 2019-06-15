@@ -1,10 +1,11 @@
-import Layout from '../../components/Layout'
 
-const Contact = () => {
+
+const Contact = (props) => {
   return (
-    <Layout>
+    <div>
       <h1>Hello from Contact!</h1>
-    </Layout>
+      <h1>You can reach out to {props.name}!</h1>
+    </div>
   )
 }
 
